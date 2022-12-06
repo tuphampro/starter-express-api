@@ -4,7 +4,9 @@ const fs = require('fs')
 const app = express()
 app.all('/', (req, res) => {
     var html = fs.readFileSync(__dirname + '/index.html');
-    res.send(html)
+    res.set('Content-Type', 'text/html');
+    res.set('Content-Length', aasa.size);
+    res.status(200).send(html);
 })
 
 var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');

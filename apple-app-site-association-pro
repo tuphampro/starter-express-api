@@ -1,17 +1,24 @@
 {
-  "applinks": {
-       "apps": [],
+    "applinks": {
+        "apps": [],
         "details": [
-           {
-               "appID":"9AK576J4RE.com.vnpt.vnptkysoeidas",
-               "paths":[ "*" ],
-               "components": [
+            {
+                "appID": "9AK576J4RE.com.vnpt.vnptkysoeidas",
+                "paths": [
+                    "*"
+                ],
+                "components": [
                     {
                         "/": "*",
                         "comment": "Handle event jump app"
                     }
                 ]
-           }
-         ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "9AK576J4RE.com.vnpt.vnptkysoeidas"
+        ]
     }
 }

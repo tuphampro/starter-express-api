@@ -15,5 +15,10 @@
                 ]
             }
         ]
+    },
+    "webcredentials": {
+        "apps": [
+            "JPMH34L85K.com.vnpt.vnptkysoeidas.enterprise"
+        ]
     }
 }

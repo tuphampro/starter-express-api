@@ -2,6 +2,7 @@ const express = require('express')
 const fs = require('fs')
 
 const app = express()
+app.use(express.static(__dirname));
 app.all('/', (req, res) => {
     var html = fs.readFileSync(__dirname + '/index.html');
     res.set('Content-Type', 'text/html');

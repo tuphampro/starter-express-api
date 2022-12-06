@@ -9,7 +9,7 @@ app.all('/', (req, res) => {
     res.status(200).send(html);
 })
 
-app.all('/app', (req, res) => {
+app.get('/app', (req, res) => {
     res.send("Download app");
 })
 

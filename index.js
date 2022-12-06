@@ -10,6 +10,7 @@ app.all('/', (req, res) => {
 })
 
 app.get('/app', (req, res) => {
+    res.set('Content-Type', 'text/html');
     res.send("Download app");
 })
 

@@ -2,7 +2,6 @@ const express = require('express')
 const fs = require('fs')
 
 const app = express()
-app.use(express.static(__dirname));
 app.all('/', (req, res) => {
     var html = fs.readFileSync(__dirname + '/index.html');
     res.set('Content-Type', 'text/html');
@@ -22,4 +21,5 @@ app.get('/apple-app-site-association', function (req, res) {
     res.status(200).send(aasa);
 });
 
+app.use(express.static(__dirname));
 app.listen(process.env.PORT || 3000)

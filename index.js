@@ -17,7 +17,7 @@ app.get('/app', (req, res) => {
 
 var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
 app.get('/apple-app-site-association', function (req, res) {
-    res.set('Content-Type', 'application/json');
+    res.setHeader("Content-Type", "application/json");
     res.set('Content-Length', aasa.size);
     res.status(200).send(aasa);
 });

@@ -9,6 +9,10 @@ app.all('/', (req, res) => {
     res.status(200).send(html);
 })
 
+app.all('/app', (req, res) => {
+    res.status(200).send("Download app");
+})
+
 var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
 app.get('/apple-app-site-association', function (req, res) {
     res.set('Content-Type', 'application/json');

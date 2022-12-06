@@ -1,0 +1,19 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "JPMH34L85K.com.vnpt.vnptkysoeidas.enterprise",
+                "paths": [
+                    "*"
+                ],
+                "components": [
+                    {
+                        "/": "*",
+                        "comment": "Handle event jump app"
+                    }
+                ]
+            }
+        ]
+    }
+}

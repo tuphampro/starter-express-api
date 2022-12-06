@@ -1,14 +1,25 @@
-[
-    {
-        "relation": [
-            "delegate_permission/common.handle_all_urls"
-        ],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.vnptit.vnpt_kyso_v2",
-            "sha256_cert_fingerprints": [
-                "50:EF:DA:FF:65:89:B7:8A:6C:7C:6C:56:DC:9A:27:34:77:11:EC:FB:2E:D3:87:B8:09:E2:58:B7:62:1F:F8:0B"
-            ]
-        }
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.vnptit.vnpt_kyso_v2",
+      "sha256_cert_fingerprints":
+      ["50:EF:DA:FF:65:89:B7:8A:6C:7C:6C:56:DC:9A:27:34:77:11:EC:FB:2E:D3:87:B8:09:E2:58:B7:62:1F:F8:0B"]
     }
-]
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://universallinks.cyclic.app"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.vnptit.vnpt_kyso_v2",
+      "sha256_cert_fingerprints":
+      ["50:EF:DA:FF:65:89:B7:8A:6C:7C:6C:56:DC:9A:27:34:77:11:EC:FB:2E:D3:87:B8:09:E2:58:B7:62:1F:F8:0B"]
+    }
+  }]

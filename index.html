@@ -19,7 +19,7 @@
         setTimeout(function () {
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
             var isDownloadApp = window.location.href.indexOf("/#app") > -1;
-            if (!isDownloadAppr) return;
+            if (!isDownloadApp) return;
 
             if (/android/i.test(userAgent)) {
                 window.location.replace("https://smartca.page.link/app");

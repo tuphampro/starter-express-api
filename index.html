@@ -14,16 +14,20 @@
     <a href="https://play.google.com/store/apps/details?id=com.vnptit.vnpt_kyso_v2&hl=vi&gl=US">Google Play</a>
     <br />
     <a href="https://apps.apple.com/vn/app/vnpt-smartca/id1540522462">Apple Store</a>
-
+ 
     <script>
         setTimeout(function () {
-            if (/android/i.test(userAgent)) {
+
+            if (/android/i.test(navigator.platform)) {
+                // window.location.replace("https://smartca.page.link/app");
                 window.location.href = "https://play.google.com/store/apps/details?id=com.vnptit.vnpt_kyso_v2&hl=vi&gl=US";
             }
 
-            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            if (/iPad|iPhone|iPod/.test(navigator.platform) && !window.MSStream) {
                 window.location.href = "https://apps.apple.com/vn/app/vnpt-smartca/id1540522462";
             }
+
+            // https://smartca.page.link/app
 
         }, 1000);
     </script>

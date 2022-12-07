@@ -3,13 +3,13 @@
         "apps": [],
         "details": [
             {
-                "appID": "JPMH34L85K.com.vnpt.vnptkysoeidas.enterprise",
+                "appID": "9AK576J4RE.com.vnpt.vnptkysoeidas",
                 "paths": [
-                    "/#app"
+                    "/#app*"
                 ],
                 "components": [
                     {
-                        "/": "/#app",
+                        "/": "/#app*",
                         "comment": "Handle event jump app"
                     }
                 ]
@@ -18,7 +18,7 @@
     },
     "webcredentials": {
         "apps": [
-            "JPMH34L85K.com.vnpt.vnptkysoeidas.enterprise"
+            "9AK576J4RE.com.vnpt.vnptkysoeidas"
         ]
     }
 }

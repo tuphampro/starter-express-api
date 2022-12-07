@@ -5,11 +5,11 @@
             {
                 "appID": "JPMH34L85K.com.vnpt.vnptkysoeidas.enterprise",
                 "paths": [
-                    "*"
+                    "/#app"
                 ],
                 "components": [
                     {
-                        "/": "*",
+                        "/": "/#app",
                         "comment": "Handle event jump app"
                     }
                 ]
